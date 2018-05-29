@@ -1,6 +1,6 @@
 CREATE TABLE votes (
   id integer PRIMARY KEY,
-  option_name varchar(20),
+  option_name varchar(20), 
   number_of_votes integer
 );
 

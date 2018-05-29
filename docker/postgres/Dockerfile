@@ -1,5 +1,6 @@
 FROM postgres:9.6
-LABEL maintainer="letters2hamza@gmail.com"
+LABEL maintainer="youremail  @gmail.com"
 EXPOSE 5432
 COPY seed.sql /docker-entrypoint-initdb.d/
-VOLUME /var/lib/postgres/data  
+RUN mkdir -p /data/db
+VOLUME /data/db

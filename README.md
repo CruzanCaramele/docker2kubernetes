@@ -7,7 +7,11 @@ This repo walks you through running web applications on [Docker](https://www.doc
 People interested in containers.
 
 ## Set-up Details
+* [Download & Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [Download & Install Vagrant](https://www.vagrantup.com/downloads.html)
+* [Clone this repository](https://github.com/CruzanCaramele/docker2kubernetes.git)
 
 
 ## Labs
 
+* [Single Container - NodeJS & PostgreSQL](docker/01.md)

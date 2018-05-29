@@ -1,5 +1,5 @@
 FROM node:4-onbuild
-LABEL maintainer="letters2hamza@gmail.com"
+LABEL maintainer="youremaila@gmail.com"
 EXPOSE 8888
 RUN mkdir -p /usr/src/app/
 WORKDIR /usr/src/app
